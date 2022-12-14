@@ -1,3 +1,4 @@
-x = input ("single letter")
-x = input ("guess"
-    )
+
+single_letter = input ("x")
+x = ("guess")
+print x
