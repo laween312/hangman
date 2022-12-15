@@ -1,4 +1,0 @@
-
-single_letter = input ("x")
-x = ("guess")
-print x
