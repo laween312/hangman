@@ -1,3 +1,15 @@
+name= input("enter single letter")
+#name = guess
+guess=input("enter single letter")
+
+
+
+
+
+
+
+
+
 import random
 
 
