@@ -1,10 +1,10 @@
 # Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+#Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
-In this milestone, using variable called word_list, I was able to create a list of words using 5 favourite fruits as an example.
+#This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+#In this milestone, using variable called word_list, I was able to create a list of words using 5 favourite fruits as an example.
 
-I was also able to use the input and random built-in module.
+#I was also able to use the input and random built-in module.
 
 # Create a list containing the names of your 5 favorite fruits.
 
