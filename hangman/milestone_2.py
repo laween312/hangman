@@ -1,3 +1,18 @@
+#Create a file named milestone_2.py. This file will contain the code for the first milestone. In Python, Lists are used to store multiple data in a single variable. In this task, we are going to create a list of words.
+
+# Create a list containing the names of your 5 favorite fruits.
+
+# Assign this list to a variable called word_list.
+
+# Print out the newly created list to the standard output (screen).
+
+#def list of fruits as word_list
+word_list = ["banana","apple","oranges","pears","watermelon"]
+print (word_list) 
+
+
+
+
 name= input("enter single letter")
 #name = guess
 guess=input("enter single letter")
