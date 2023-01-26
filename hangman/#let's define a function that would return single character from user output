@@ -1,3 +1,0 @@
-input("single letter?:")
-guess=input("single letter")
-print(guess)
