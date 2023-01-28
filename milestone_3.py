@@ -7,5 +7,7 @@ while True:
         break  
     else:
         print("Invalid letter. Please, enter a single alphabetical character.") 
+       
+       #check_guess(guess)
         
-    
+        #ask_for_input()
