@@ -1,3 +1,8 @@
+import random 
+word_list = ["banana","apple","oranges","pears","watermelon"]
+print (word_list) 
+
+word = random.choice(word_list)
 guess = input("please guess a letter")
 while True:
     guess = input("please guess a letter")
@@ -8,6 +13,14 @@ while True:
     else:
         print("Invalid letter. Please, enter a single alphabetical character.") 
        
-       #check_guess(guess)
+        #Create an if statement that checks if the guess is in the word.
+
+# In the body of the if statement, print a message saying "Good guess! {guess} is in the word.". Obviously, format the string to show the actual guess instead of {guess}.
+
+# Create an else block that prints a message saying "Sorry, {guess} is not in the word. Try again." This block of code will run if the guess is not in the word.
         
-        #ask_for_input()
+    if guess in word:
+     print ("Good guess! {guess} is in the word.")
+    else:
+     print ("Sorry, {guess} is not in the word. Try again.")    
+    
