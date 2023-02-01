@@ -40,14 +40,15 @@ while True:
      
      def ask_for_input():
          while True:
-             guess = input ("guess a letter")
-             check_guess(guess)
+             guess = input ("guess a single letter: ")
+            
              if (guess.isalpha() ==  True) and (len(guess) ==1):
+                 print ("good guess!")
                  break
              else:
-              print("invalid letter. Please enter a single alphabetical charcater")
-              break
-             return ask_for_input()
-         #ask_for_input
+              print("invalid letter. Please enter a single alphabetical character")
+             check_guess(guess)
+            
+         ask_for_input()
       
       
