@@ -29,7 +29,8 @@ while True:
      word_list =  ["banana","apple","oranges","pears","watermelon"]
      
      def check_guess(guess):
-         guess.lower
+          ask_for_input
+          guess.lower
          
         
     if guess in word:
